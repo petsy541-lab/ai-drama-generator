@@ -1,0 +1,123 @@
+# Drama Genre Configurations
+
+genres:
+  c-drama:
+    name: "Chinese Drama"
+    description: "Period pieces, martial arts, political intrigue, romance"
+    color_palette: ["gold", "red", "crimson", "burgundy"]
+    typical_settings:
+      - "ancient-palace"
+      - "martial-arts-temple"
+      - "imperial-court"
+      - "misty-mountains"
+      - "traditional-village"
+    music_styles:
+      - "traditional-chinese"
+      - "guzheng-instrumental"
+      - "cinematic-orchestral"
+    character_archetypes:
+      - "noble-princess"
+      - "skilled-warrior"
+      - "wise-mentor"
+      - "scheming-villain"
+      - "common-hero"
+    plot_elements:
+      - "forbidden-love"
+      - "power-struggle"
+      - "mystical-powers"
+      - "political-conspiracy"
+      - "martial-arts-tournament"
+    typical_runtime: 45  # minutes per episode
+
+  k-drama:
+    name: "Korean Drama"
+    description: "Romance, revenge, fantasy, contemporary slice-of-life"
+    color_palette: ["soft-pink", "white", "navy", "silver"]
+    typical_settings:
+      - "seoul-urban"
+      - "cozy-cafe"
+      - "luxury-apartment"
+      - "countryside-village"
+      - "futuristic-city"
+    music_styles:
+      - "korean-ost-ballad"
+      - "k-pop-inspired"
+      - "acoustic-guitar"
+    character_archetypes:
+      - "cold-ceo"
+      - "innocent-girl"
+      - "best-friend"
+      - "mysterious-stranger"
+      - "family-patriarch"
+    plot_elements:
+      - "love-triangle"
+      - "revenge-plot"
+      - "time-travel"
+      - "reincarnation"
+      - "class-conflict"
+    typical_runtime: 60  # minutes per episode
+
+  us-drama:
+    name: "American Drama"
+    description: "Crime procedural, medical, supernatural, workplace drama"
+    color_palette: ["dark-blue", "gray", "steel", "black"]
+    typical_settings:
+      - "police-precinct"
+      - "hospital"
+      - "corporate-office"
+      - "suburban-town"
+      - "dark-warehouse"
+    music_styles:
+      - "noir-jazz"
+      - "industrial-synth"
+      - "dramatic-strings"
+    character_archetypes:
+      - "detective"
+      - "doctor"
+      - "ambitious-executive"
+      - "mysterious-suspect"
+      - "loyal-partner"
+    plot_elements:
+      - "murder-mystery"
+      - "medical-emergency"
+      - "corporate-espionage"
+      - "supernatural-encounter"
+      - "betrayal"
+    typical_runtime: 42  # minutes per episode
+
+voice_styles:
+  dramatic:
+    pace: "slow"
+    tone: "serious"
+    emotion_intensity: 0.9
+    pitch_variation: 0.8
+  
+  emotional:
+    pace: "moderate"
+    tone: "passionate"
+    emotion_intensity: 0.85
+    pitch_variation: 0.9
+  
+  calm:
+    pace: "moderate"
+    tone: "peaceful"
+    emotion_intensity: 0.5
+    pitch_variation: 0.4
+  
+  intense:
+    pace: "fast"
+    tone: "aggressive"
+    emotion_intensity: 1.0
+    pitch_variation: 1.0
+  
+  mysterious:
+    pace: "slow"
+    tone: "enigmatic"
+    emotion_intensity: 0.7
+    pitch_variation: 0.6
+  
+  romantic:
+    pace: "moderate"
+    tone: "tender"
+    emotion_intensity: 0.75
+    pitch_variation: 0.7

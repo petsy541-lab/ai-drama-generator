@@ -1,0 +1,46 @@
+# Core Dependencies
+python-dotenv==1.0.0
+requests==2.31.0
+aiohttp==3.9.0
+
+# AI & ML
+torch==2.0.1
+transformers==4.35.0
+huggingface-hub==0.17.3
+diffusers==0.21.4
+pillow==10.0.1
+
+# Audio Processing
+pydub==0.25.1
+librosa==0.10.0
+soundfile==0.12.1
+elevenlabs==0.2.26
+bark==0.1.6
+
+# Video Processing
+moviespy==1.0.3
+opencv-python==4.8.1.78
+ffmpeg-python==0.2.1
+
+# API & Networking
+requests==2.31.0
+aiohttp==3.9.0
+python-socketio==5.9.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+pyyaml==6.0.1
+
+# Utilities
+tqdm==4.66.1
+loguru==0.7.2
+click==8.1.7
+typer==0.9.0
+
+# Testing
+pytest==7.4.0
+pytest-asyncio==0.21.1
+
+# Database (optional)
+sqlalchemy==2.0.21
